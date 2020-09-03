@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="Wave.MainPage">
+    <StackLayout Margin="20" VerticalOptions="Center">
+        <Button x:Name="ScanWave"                 
+                FontSize="24" 
+                HorizontalOptions="FillAndExpand"/>        
+        <Button x:Name="LoggingButton" 
+                FontSize="24" 
+                HorizontalOptions="FillAndExpand" 
+                Clicked="Logging_Clicked" />
+        <Button x:Name="ManageAudios"                  
+                FontSize="24" 
+                HorizontalOptions="FillAndExpand" 
+                Clicked="ManageAudios_Clicked" />
+        <ActivityIndicator x:Name="activityIndicator" />
+    </StackLayout>
+</ContentPage>
